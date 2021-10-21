@@ -22,7 +22,7 @@
 
                     {{ else }}
                     <a style="display: inline-block; margin-bottom: 40px" href="{{ $pathURL }}{{ .Name | relURL }}" target="_blank">
-                   <img src="{{ $pathURL }}{{ .Name | relURL }}" style="max-height: 30vh;height:100%"></img>
+                    <img src="{{ $pathURL }}{{ .Name | relURL }}" alt="logo" style="max-height: 30vh;height:100%;object-fit:contain;width:100%"></img>
                     <h4>{{ .Name }}</h4>
                      </a>
                     {{end}}
