@@ -1,0 +1,4 @@
+baseURL = "https://presskit.donkeyclip.com/"
+languageCode = "en-us"
+title = "DonkeyClip PressKit"
+theme = "detox"

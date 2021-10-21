@@ -1,0 +1,23 @@
+<head>
+  {{ partial "meta.html" . }}
+  <title>{{ .Title }} &middot; {{ .Site.Title }}</title>
+  <link rel="canonical" href="{{ .Site.BaseURL }}" />
+  {{ with .OutputFormats.Get "RSS" }}
+  <link
+    rel="alternate"
+    type="application/rss+xml"
+    title="RSS"
+    href=" {{ .RelPermalink }}"
+  />
+  {{ end }}
+  <link
+    rel="stylesheet"
+    type="text/css"
+    href="{{ .Site.BaseURL }}css/main.css"
+  />
+  <link
+    href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300|Montserrat:700"
+    rel="stylesheet"
+    type="text/css"
+  />
+</head>
