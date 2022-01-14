@@ -5,6 +5,7 @@ public/
 hugo.exe
 hugo.linux
 hugo.darwin
+.hugo_build.lock
 
 .DS_Store
 node_modules
